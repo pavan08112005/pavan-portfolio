@@ -368,7 +368,7 @@ export default function Home() {
               </p>
               <h2 className="mt-6 text-4xl font-semibold tracking-[-0.05em] sm:text-5xl">
                 <span className="text-zinc-600">
-                  About
+                  About.
                 </span>
               </h2>
 
