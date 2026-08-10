@@ -220,7 +220,7 @@ export default function Home() {
                 </a>
                 
                  <a
-    href="/resume/Pavan_Kumar_C_Resume.pdf"
+    href="/resume/pavan-resume.pdf"
     target="_blank"
     rel="noopener noreferrer"
     className="rounded-full border border-white/10 px-7 py-3 text-sm font-medium text-white transition duration-300 hover:bg-white/[0.06]"
@@ -797,7 +797,7 @@ export default function Home() {
               </a>
 
               <a
-                href="/resume/pavan=resume.pdf"
+                href="/resume/pavan-resume.pdf"
                 download
                 className="rounded-full border border-white/[0.1] px-6 py-3 text-sm font-medium text-white transition hover:bg-white/[0.06]"
               >
