@@ -603,8 +603,7 @@ export default function Home() {
     target="_blank"
     rel="noopener noreferrer"
     aria-label={`View ${project.title} on GitHub`}
-    className="flex h-11 w-11 items-center justify-center rounded-full border border-white/[0.08] text-lg text-zinc-600 transition duration-300 hover:border-white hover:bg-white hover:text-black"
-  >
+    className="flex h-11 w-11 items-center justify-center rounded-full border border-purple-500/30 bg-purple-500/[0.03] text-xs font-medium text-zinc-300 transition-all duration-300 hover:-translate-y-1 hover:border-purple-400 hover:bg-purple-500/10 hover:text-white hover:shadow-[0_0_15px_rgba(168,85,247,0.8),0_0_40px_rgba(168,85,247,0.5),0_0_70px_rgba(168,85,247,0.3)]">
     GH
   </a>
 
@@ -614,8 +613,7 @@ export default function Home() {
     target="_blank"
     rel="noopener noreferrer"
     aria-label={`View live demo of ${project.title}`}
-    className="flex h-11 items-center justify-center rounded-full border border-white/[0.08] px-4 text-xs font-medium uppercase tracking-wider text-zinc-600 transition duration-300 hover:border-white hover:bg-white hover:text-black"
-  >
+    className="flex h-11 items-center justify-center rounded-full border border-purple-500/30 bg-purple-500/[0.03] px-4 text-xs font-medium uppercase tracking-wider text-zinc-300 transition-all duration-300 hover:-translate-y-1 hover:border-purple-400 hover:bg-purple-500/10 hover:text-white hover:shadow-[0_0_15px_rgba(168,85,247,0.8),0_0_40px_rgba(168,85,247,0.5),0_0_70px_rgba(168,85,247,0.3)]">
     Live Demo ↗
   </a>
 
