@@ -49,6 +49,7 @@ const projects = [
       "GitHub",
     ],
     github: "https://github.com/pavan08112005/mentormind-ai",
+    liveDemo: "https://your-live-demo-url.com",
   },
   {
     number: "02",
@@ -65,6 +66,8 @@ const projects = [
       "AI APIs",
     ],
     github: "https://github.com/pavan08112005/ai-website-builder",
+    liveDemo: "https://ai-website-builder-git-main-pavan-dadd.vercel.app",
+    
   },
   {
     number: "03",
@@ -79,6 +82,7 @@ const projects = [
       "MongoDB",
     ],
     github: "https://github.com/pavan08112005/restaurant-booking-app",
+    liveDemo: "https://your-live-demo-url.com",
   },
   {
     number: "04",
@@ -94,6 +98,7 @@ const projects = [
       "Stripe",
     ],
     github: "https://github.com/pavan08112005/Grocery-Delivery-App",
+    liveDemo: "https://your-live-demo-url.com",
   },
 ];
 
@@ -549,7 +554,7 @@ export default function Home() {
                 className="group border-t border-white/[0.08] py-10 last:border-b"
               >
 
-                <div className="grid gap-8 md:grid-cols-[70px_1fr_160px_50px] md:items-center">
+                <div className="grid gap-8 md:grid-cols-[70px_1fr_160px_auto] md:items-center">
 
                   <span className="text-xs text-zinc-700">
                     {project.number}
@@ -590,15 +595,31 @@ export default function Home() {
                   </p>
 
 
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={`View ${project.title} on GitHub`}
-                    className="flex h-11 w-11 items-center justify-center rounded-full border border-white/[0.08] text-lg text-zinc-600 transition duration-300 hover:border-white hover:bg-white hover:text-black"
-                  >
-                    ↗
-                  </a>
+                  <div className="flex items-center gap-3">
+
+  {/* GitHub */}
+  <a
+    href={project.github}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label={`View ${project.title} on GitHub`}
+    className="flex h-11 w-11 items-center justify-center rounded-full border border-white/[0.08] text-lg text-zinc-600 transition duration-300 hover:border-white hover:bg-white hover:text-black"
+  >
+    GH
+  </a>
+
+  {/* Live Demo */}
+  <a
+    href={project.liveDemo}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label={`View live demo of ${project.title}`}
+    className="flex h-11 items-center justify-center rounded-full border border-white/[0.08] px-4 text-xs font-medium uppercase tracking-wider text-zinc-600 transition duration-300 hover:border-white hover:bg-white hover:text-black"
+  >
+    Live Demo ↗
+  </a>
+
+</div>
 
                 </div>
 
