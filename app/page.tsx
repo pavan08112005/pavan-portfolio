@@ -603,8 +603,8 @@ export default function Home() {
     target="_blank"
     rel="noopener noreferrer"
     aria-label={`View ${project.title} on GitHub`}
-    className="flex h-11 w-11 items-center justify-center rounded-full border border-purple-500/30 bg-purple-500/[0.03] text-xs font-medium text-zinc-300 transition-all duration-300 hover:-translate-y-1 hover:border-purple-400 hover:bg-purple-500/10 hover:text-white hover:shadow-[0_0_15px_rgba(168,85,247,0.8),0_0_40px_rgba(168,85,247,0.5),0_0_70px_rgba(168,85,247,0.3)]">
-    GH
+    className="flex h-11 items-center justify-center rounded-full border border-purple-500/40 bg-purple-500/10 px-4 text-xs font-medium text-purple-200 shadow-[0_0_12px_rgba(168,85,247,0.35),0_0_30px_rgba(168,85,247,0.15)] transition-all duration-300 hover:-translate-y-1 hover:border-purple-300 hover:bg-purple-500/20 hover:text-white hover:shadow-[0_0_15px_rgba(168,85,247,0.8),0_0_40px_rgba(168,85,247,0.5),0_0_70px_rgba(168,85,247,0.3)]">
+    GitHub ↗
   </a>
 
   {/* Live Demo */}
