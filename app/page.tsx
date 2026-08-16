@@ -49,7 +49,7 @@ const projects = [
       "GitHub",
     ],
     github: "https://github.com/pavan08112005/mentormind-ai",
-    liveDemo: "https://your-live-demo-url.com",
+    liveDemo: "https://mentormind-ai-mbfm.onrender.com/",
   },
   {
     number: "02",
