@@ -82,7 +82,7 @@ const projects = [
       "MongoDB",
     ],
     github: "https://github.com/pavan08112005/restaurant-booking-app",
-    liveDemo: "https://your-live-demo-url.com",
+    liveDemo: "https://restaurant-booking-app-rho.vercel.app",
   },
   {
     number: "04",
