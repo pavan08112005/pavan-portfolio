@@ -98,7 +98,7 @@ const projects = [
       "Stripe",
     ],
     github: "https://github.com/pavan08112005/Grocery-Delivery-App",
-    liveDemo: "https://your-live-demo-url.com",
+    liveDemo: "https://grocery-delivery-sage-three.vercel.app/",
   },
 ];
 
