@@ -57,7 +57,7 @@ const projects = [
     title: "AI Website Builder",
     category: "FULL STACK / AI",
     description:
-      "A full-stack AI-powered web application that generates dynamic website content and helps users create and manage website projects using AI APIs.",
+      "Built an full-stack AI-powered web application that generates dynamic website content and helps users create and manage website projects using AI APIs.",
     technologies: [
       "React.js",
       "Node.js",
@@ -75,7 +75,7 @@ const projects = [
     title: "Restaurant Booking App",
     category: "FULL STACK",
     description:
-      "A restaurant reservation system with user authentication, table booking, booking management, and an admin dashboard for managing reservations.",
+      "Developed restaurant reservation system with user authentication, table booking, booking management, and an admin dashboard for managing reservations.",
     technologies: [
       "React.js",
       "Node.js",
@@ -90,7 +90,7 @@ const projects = [
     title: "Grocery Delivery App",
     category: "FULL STACK",
     description:
-      "A full-stack grocery delivery platform featuring authentication, shopping cart functionality, secure payments, and an admin dashboard for product, inventory, and order management.",
+      "Built an full-stack grocery delivery platform featuring authentication, shopping cart functionality, secure payments, and an admin dashboard for product, inventory, and order management.",
     technologies: [
       "React.js",
       "Node.js",
