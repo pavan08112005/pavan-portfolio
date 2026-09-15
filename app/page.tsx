@@ -37,7 +37,7 @@ const projects = [
     title: "MentorMind-AI",
     category: "AI / EDUCATION",
     description:
-      "A full-stack web application that helps students prepare for placements through user authentication, resume guidance, coding resources, interview preparation, and a responsive dashboard.",
+      "Developed an web application that helps students prepare for placements through user authentication, resume guidance, coding resources, interview preparation, and a responsive dashboard.",
     technologies: [
       "Python",
       "Flask",
@@ -45,6 +45,7 @@ const projects = [
       "CSS3",
       "JavaScript",
       "MySQL",
+      "LLM",
       "Git",
       "GitHub",
     ],
